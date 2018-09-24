@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GET	python/centos6/index.py	/^    def GET(self):$/;"	m	class:index
+GET	python/centos7/index.py	/^    def GET(self):$/;"	m	class:index
+PORT	nodejs/centos6/index.js	/^var PORT = 8080;$/;"	v
+__check	wordpress/centos6/start.sh	/^__check() {$/;"	f
+__check	wordpress/centos7/scripts/start.sh	/^__check() {$/;"	f
+__create_db	postgres/centos6/postgres_user.sh	/^__create_db() {$/;"	f
+__create_user	postgres/centos7/start_postgres.sh	/^__create_user() {$/;"	f
+__create_user	ssh/centos6/start.sh	/^__create_user() {$/;"	f
+__create_user	ssh/centos7/start.sh	/^__create_user() {$/;"	f
+__create_user	wordpress/centos6/start.sh	/^__create_user() {$/;"	f
+__handle_db_host	wordpress/centos7/scripts/start.sh	/^__handle_db_host() {$/;"	f
+__handle_passwords	wordpress/centos6/start.sh	/^__handle_passwords() {$/;"	f
+__handle_passwords	wordpress/centos7/scripts/start.sh	/^__handle_passwords() {$/;"	f
+__httpd_perms	wordpress/centos6/start.sh	/^__httpd_perms() {$/;"	f
+__httpd_perms	wordpress/centos7/scripts/start.sh	/^__httpd_perms() {$/;"	f
+__mod_user	postgres/centos6/postgres_user.sh	/^__mod_user() {$/;"	f
+__mysql_config	mysql/centos6/config_mysql.sh	/^__mysql_config() {$/;"	f
+__mysql_config	wordpress/centos6/start.sh	/^__mysql_config() {$/;"	f
+__run_apache	wordpress/centos7/scripts/start.sh	/^__run_apache() {$/;"	f
+__run_supervisor	mysql/centos6/start.sh	/^__run_supervisor() {$/;"	f
+__run_supervisor	postgres/centos6/start_postgres.sh	/^__run_supervisor() {$/;"	f
+__run_supervisor	postgres/centos7/start_postgres.sh	/^__run_supervisor() {$/;"	f
+__run_supervisor	wordpress/centos6/start.sh	/^__run_supervisor() {$/;"	f
+__start_mysql	mysql/centos6/config_mysql.sh	/^__start_mysql() {$/;"	f
+__start_mysql	wordpress/centos6/start.sh	/^__start_mysql() {$/;"	f
+app	nodejs/centos6/index.js	/^var app = express();$/;"	v
+app	python/centos6/index.py	/^    app = web.application(urls, globals())$/;"	v
+app	python/centos7/index.py	/^    app = web.application(urls, globals())$/;"	v
+express	nodejs/centos6/index.js	/^var express = require('express');$/;"	v
+index	python/centos6/index.py	/^class index:$/;"	c
+index	python/centos7/index.py	/^class index:$/;"	c
+mark_exit_code	freeipa/centos7/ipa-server-configure-first	/^mark_exit_code () {$/;"	f
+update_server_ip_address	freeipa/centos7/ipa-server-configure-first	/^function update_server_ip_address () {$/;"	f
+upgrade_server	freeipa/centos7/ipa-server-configure-first	/^function upgrade_server () {$/;"	f
+urls	python/centos6/index.py	/^urls = ($/;"	v
+urls	python/centos7/index.py	/^urls = ($/;"	v
+usage	freeipa/centos7/ipa-server-configure-first	/^function usage () {$/;"	f
+web	python/centos6/index.py	/^import web$/;"	i
+web	python/centos7/index.py	/^import web$/;"	i
