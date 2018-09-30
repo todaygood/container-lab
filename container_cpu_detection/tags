@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEBUG_LOG	detection.c	30;"	d	file:
+DEBUG_LOG	detection.c	37;"	d	file:
+DETECTION_ERROR	detection.c	19;"	d	file:
+DETECTION_MIN	detection.c	27;"	d	file:
+DETECTION_OK	detection.c	18;"	d	file:
+DETECTION_TARGETS	detection.c	15;"	d	file:
+DOCKER_CMD	Makefile	/^DOCKER_CMD = \/tmp\/sysconf_test$/;"	m
+DOCKER_IMAGE	Makefile	/^DOCKER_IMAGE = ubuntu$/;"	m
+DOCKER_RUN_OPTS	Makefile	/^DOCKER_RUN_OPTS = $(shell echo "-ti --rm" \\$/;"	m
+MAXPATHLEN	detection.c	17;"	d	file:
+PER_CPU_SHARES	detection.c	21;"	d	file:
+SET_SUBSYSTEM_INFO	detection.c	23;"	d	file:
+_GNU_SOURCE	detection.c	5;"	d	file:
+_fini	detection.c	/^static void _fini()$/;"	f	file:
+_init	detection.c	/^static void _init()$/;"	f	file:
+_orig_sysconf	detection.c	/^static glibc_sysconf _orig_sysconf;$/;"	v	file:
+ceilf	detection.c	/^static inline float ceilf(float x)$/;"	f	file:
+cgroup_subsystem_info	detection.c	/^} cgroup_subsystem_info;$/;"	t	typeref:struct:__anon2	file:
+cpu_cfs_period	detection.c	/^static d_string_t cpu_cfs_period  = d_string("\/cpu.cfs_period_us");$/;"	v	file:
+cpu_cfs_quota	detection.c	/^static d_string_t cpu_cfs_quota   = d_string("\/cpu.cfs_quota_us");$/;"	v	file:
+cpu_cfs_shares	detection.c	/^static d_string_t cpu_cfs_shares  = d_string("\/cpu.shares");$/;"	v	file:
+cpu_cpuset_cpus	detection.c	/^static d_string_t cpu_cpuset_cpus = d_string("\/cpuset.cpus");$/;"	v	file:
+cpu_subsystem	detection.c	/^static cgroup_subsystem_info cpu_subsystem;$/;"	v	file:
+cpuset_getrange	detection.c	/^static int cpuset_getrange(const char *c, int *a, int *b)$/;"	f	file:
+cpuset_nexttok	detection.c	/^static char *cpuset_nexttok(const char *c)$/;"	f	file:
+cpuset_subsystem	detection.c	/^static cgroup_subsystem_info cpuset_subsystem;$/;"	v	file:
+d_string	detection.c	40;"	d	file:
+d_string_t	detection.c	/^} d_string_t;$/;"	t	typeref:struct:__anon1	file:
+data	detection.c	/^    char *data;$/;"	m	struct:__anon1	file:
+detection_free	detection.c	/^static void detection_free(cgroup_subsystem_info *subsystem)$/;"	f	file:
+detection_init	detection.c	/^static int detection_init()$/;"	f	file:
+detection_initialized	detection.c	/^static int           detection_initialized;$/;"	v	file:
+detection_open	detection.c	/^static int           detection_open;$/;"	v	file:
+glibc_sysconf	detection.c	/^typedef long (*glibc_sysconf)(int name);$/;"	t	file:
+is_detection_target	detection.c	/^static int is_detection_target()$/;"	f	file:
+len	detection.c	/^    int   len;$/;"	m	struct:__anon1	file:
+main	sysconf_test.c	/^int main()$/;"	f
+mount_point	detection.c	/^    d_string_t mount_point;$/;"	m	struct:__anon2	file:
+orig_sysconf	detection.c	/^static long orig_sysconf(int name)$/;"	f	file:
+path	detection.c	/^    d_string_t path;$/;"	m	struct:__anon2	file:
+read_cpu_subsystem_info	detection.c	/^static int read_cpu_subsystem_info(cgroup_subsystem_info *subsystem,$/;"	f	file:
+read_subsystem_file	detection.c	/^static int read_subsystem_file(const char *filename, char *value,$/;"	f	file:
+root	detection.c	/^    d_string_t root;$/;"	m	struct:__anon2	file:
+set_subsystem_path	detection.c	/^static int set_subsystem_path(cgroup_subsystem_info *subsystem_info,$/;"	f	file:
+std	Makefile	/^	gcc -std=c99 -Wall -shared -g -fPIC -ldl detection.c -o $(versioned_so)$/;"	m
+sysconf	detection.c	/^long sysconf(int name)$/;"	f
+versioned_so	Makefile	/^versioned_so = detection.so$/;"	m

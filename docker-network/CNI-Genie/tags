@@ -1,0 +1,487 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-default	vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc-gen-combo --default=false --gogo_out=. --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-default	vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-gen-combo --default=false --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-format	vendor/github.com/docker/distribution/Makefile	/^	 git log --format='%aN <%aE>' | sort -fu > $@$/;"	m
+-go_out	vendor/github.com/golang/protobuf/proto/Makefile	/^	protoc --go_out=Mtestdata\/test.proto=github.com\/golang\/protobuf\/proto\/testdata,Mgoogle\/protobuf\/any.proto=github.com\/golang\/protobuf\/ptypes\/any:. proto3_proto\/proto3.proto$/;"	m
+-go_out	vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/Makefile	/^	protoc --go_out=. -I$(HOME)\/src\/protobuf\/src $(HOME)\/src\/protobuf\/src\/google\/protobuf\/descriptor.proto && \\$/;"	m
+-go_out	vendor/github.com/golang/protobuf/protoc-gen-go/plugin/Makefile	/^	protoc --go_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/golang\/protobuf\/protoc-gen-go\/descriptor:. \\$/;"	m
+-go_out	vendor/github.com/golang/protobuf/protoc-gen-go/testdata/Makefile	/^	protoc --go_out=. multi\/multi{1,2,3}.proto$/;"	m
+-go_out	vendor/github.com/golang/protobuf/protoc-gen-go/testdata/Makefile	/^	protoc --go_out=Mmulti\/multi1.proto=github.com\/golang\/protobuf\/protoc-gen-go\/testdata\/multi:. $<$/;"	m
+-gofast_out	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gofast_out=.\/gofast\/ vanity.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/gogoproto/Makefile	/^	protoc --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:..\/..\/..\/..\/ --proto_path=..\/..\/..\/..\/:..\/protobuf\/:. *.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/Makefile	/^	protoc --gogo_out=. -I=..\/..\/protobuf\/google\/protobuf ..\/..\/protobuf\/google\/protobuf\/descriptor.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/protoc-gen-gogo/plugin/Makefile	/^	protoc --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. -I=..\/..\/protobuf\/google\/protobuf\/compiler\/:..\/..\/protobuf\/ ..\/..\/protobuf\/google\/protobuf\/compiler\/plugin.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc --gogo_out=. multi\/multi1.proto multi\/multi2.proto multi\/multi3.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc --gogo_out=. --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/test/casttype/Makefile	/^	protoc-gen-combo --gogo_out=. --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. casttype.proto$/;"	m
+-gogo_out	vendor/github.com/gogo/protobuf/test/filedotname/Makefile	/^	protoc --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. file.dot.proto$/;"	m
+-gogofast_out	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofast_out=.\/fast\/ vanity.proto$/;"	m
+-gogofaster_out	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofaster_out=.\/faster\/ vanity.proto$/;"	m
+-gogoslick_out	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogoslick_out=.\/slick\/ vanity.proto$/;"	m
+-gostring_out	vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/Makefile	/^	protoc --gostring_out=. -I=..\/..\/protobuf\/google\/protobuf ..\/..\/protobuf\/google\/protobuf\/descriptor.proto$/;"	m
+-proto_path	vendor/github.com/gogo/protobuf/test/fuzztests/Makefile	/^	protoc  --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=. fuzz.proto$/;"	m
+-proto_path	vendor/github.com/gogo/protobuf/test/issue312/events/Makefile	/^	protoc --proto_path=.:$(GOPATH)\/src\/:$(GOPATH)\/src\/github.com\/gogo\/protobuf\/protobuf\/ \\$/;"	m
+-proto_path	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ gogovanity.proto$/;"	m
+-proto_path	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ gogovanity.proto$/;"	m
+-proto_path	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ gogovanity.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/proto/Makefile	/^	protoc-min-version --version="3.0.0" --proto_path=.:..\/..\/..\/..\/:..\/protobuf --gogo_out=Mtestdata\/test.proto=github.com\/gogo\/protobuf\/proto\/testdata,Mgoogle\/protobuf\/any.proto=github.com\/gogo\/protobuf\/types:. proto3_proto\/proto3.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/proto/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. test.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	--version="3.0.0" \\$/;"	m
+-version	vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mmulti\/multi1.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/testdata\/multi:. .\/my_test\/test.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/data/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. \\$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/enumdecl/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. enumdecl.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/enumdecl_all/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. enumdeclall.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/importduplicate/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=:. \\$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/issue260/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/timestamp.proto=github.com\/gogo\/protobuf\/types:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. issue260.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/issue261/Makefile	/^	protoc-min-version --version="3.0.0" --gogoslick_out=\\$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/issue262/Makefile	/^	protoc-min-version --version="3.0.0" --proto_path=.:$(GOPATH)\/src\/:$(GOPATH)\/src\/github.com\/gogo\/protobuf\/protobuf\/ \\$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/issue322/Makefile	/^	protoc-min-version --version="3.0.0" --gogofast_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/issue330/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/mapdefaults/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogo_out=. map.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/mapsproto2/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. mapsproto2.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/oneof/Makefile	/^	protoc-gen-combo --version="2.6.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/oneof3/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/proto3extension/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto/;"	m
+-version	vendor/github.com/gogo/protobuf/test/stdtypes/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=\\$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/theproto3/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. theproto3.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/typedecl/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedecl.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/typedecl_all/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedeclall.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/typedeclimport/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. .\/subpkg\/subpkg.proto/;"	m
+-version	vendor/github.com/gogo/protobuf/test/typedeclimport/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedeclimport.proto$/;"	m
+-version	vendor/github.com/gogo/protobuf/test/types/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=\\$/;"	m
+CFSSL	vendor/github.com/coreos/etcd/hack/tls-setup/Makefile	/^CFSSL	= @env PATH=$(GOPATH)\/bin:$(PATH) cfssl$/;"	m
+DATA	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·REDMASK51(SB)\/8, $0x0007FFFFFFFFFFFF$/;"	l
+DATA	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_121666_213(SB)\/8, $996687872$/;"	l
+DATA	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P0(SB)\/8, $0xFFFFFFFFFFFDA$/;"	l
+DATA	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P1234(SB)\/8, $0xFFFFFFFFFFFFE$/;"	l
+DEPS	controllers/network-policy-controller/Makefile	/^DEPS = $(SRCFILES) \\$/;"	m
+DEPS	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DEPS	vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^DEPS=..\/descriptor ..\/plugin ..\/..\/proto$/;"	m
+DEPS	vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DIRS	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DIRS	vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DOCKER_DOCS_IMAGE	vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_DOCS_IMAGE := docs-base$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_ENVS	vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_ENVS := \\$/;"	m
+DOCKER_IMAGE	vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IMAGE := docker$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_IP	vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IP=$(shell python -c "import urlparse ; print urlparse.urlparse('$(DOCKER_HOST)').hostname or ''")$/;"	m
+DOCKER_RUN_DOCS	vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_RUN_DOCS := docker run --rm -it $(DOCS_MOUNT) -e AWS_S3_BUCKET -e NOCACHE$/;"	m
+DOCSPORT	vendor/github.com/docker/distribution/docs/Makefile	/^DOCSPORT := 8000$/;"	m
+DOCS_MOUNT	vendor/github.com/docker/distribution/docs/Makefile	/^DOCS_MOUNT := $(if $(DOCSDIR),-v $(CURDIR)\/$(DOCSDIR):\/$(DOCSDIR))$/;"	m
+Delete_AllPlugins	plugins_install.sh	/^Delete_AllPlugins() {$/;"	f
+Echo123	vendor/github.com/ugorji/go/codec/test.py	/^        def Echo123(self, msg1, msg2, msg3):$/;"	m	class:doRpcServer.EchoHandler
+EchoHandler	vendor/github.com/ugorji/go/codec/test.py	/^    class EchoHandler(object):$/;"	c	function:doRpcServer
+EchoStruct	vendor/github.com/ugorji/go/codec/test.py	/^        def EchoStruct(self, msg):$/;"	m	class:doRpcServer.EchoHandler
+GITCOMMIT	vendor/github.com/docker/distribution/docs/Makefile	/^GITCOMMIT := $(shell git rev-parse --short HEAD 2>\/dev\/null)$/;"	m
+GIT_BRANCH	vendor/github.com/docker/distribution/docs/Makefile	/^GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD 2>\/dev\/null)$/;"	m
+GLOBL	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·REDMASK51(SB), 8, $8$/;"	l
+GLOBL	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_121666_213(SB), 8, $8$/;"	l
+GLOBL	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P0(SB), 8, $8$/;"	l
+GLOBL	vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P1234(SB), 8, $8$/;"	l
+GO15VENDOREXPERIMENT	vendor/github.com/docker/distribution/Makefile	/^GO15VENDOREXPERIMENT := 1$/;"	m
+GODEP	vendor/github.com/docker/distribution/Makefile	/^GODEP := $(shell which godep || echo '')$/;"	m
+GOFILES	vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^GOFILES=\\$/;"	m
+GOLINT	vendor/github.com/docker/distribution/Makefile	/^GOLINT := $(shell which golint || echo '')$/;"	m
+GOPATH	vendor/github.com/mailru/easyjson/Makefile	/^GOPATH:=$(PWD)\/.root:$(GOPATH)$/;"	m
+GOSYM_PREFIX	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GOSYM_PREFIX	vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GO_GCFLAGS	vendor/github.com/docker/distribution/Makefile	/^	GO_GCFLAGS=-gcflags "-N -l"$/;"	m
+GO_LDFLAGS	vendor/github.com/docker/distribution/Makefile	/^GO_LDFLAGS=-ldflags "-X `go list .\/version`.Version=$(VERSION)"$/;"	m
+GO_PATH	Makefile	/^GO_PATH=$(GOPATH)$/;"	m
+GO_PATH	controllers/network-admission-controller/Makefile	/^GO_PATH = $(GOPATH)$/;"	m
+GO_PATH	controllers/network-policy-controller/Makefile	/^GO_PATH = $(GOPATH)$/;"	m
+GO_VERSION	vendor/github.com/gogo/protobuf/Makefile	/^GO_VERSION:=$(shell go version)$/;"	m
+HUGO_BASE_URL	vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BASE_URL=$(shell test -z "$(DOCKER_IP)" && echo localhost || echo "$(DOCKER_IP)")$/;"	m
+HUGO_BIND_IP	vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BIND_IP=0.0.0.0$/;"	m
+Install_Calico	plugins_install.sh	/^Install_Calico() {$/;"	f
+Install_Flannel	plugins_install.sh	/^Install_Flannel() {$/;"	f
+Install_Romana	plugins_install.sh	/^Install_Romana() {$/;"	f
+Install_Weave	plugins_install.sh	/^Install_Weave() {$/;"	f
+JSON	vendor/github.com/coreos/etcd/hack/tls-setup/Makefile	/^JSON	= env PATH=$(GOPATH)\/bin:$(PATH) cfssljson$/;"	m
+MAKE_SURE_DIST_EXIST	Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+MAKE_SURE_DIST_EXIST	controllers/network-admission-controller/Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+MAKE_SURE_DIST_EXIST	controllers/network-policy-controller/Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+PKG	vendor/github.com/mailru/easyjson/Makefile	/^PKG=github.com\/mailru\/easyjson$/;"	m
+PKGS	vendor/github.com/docker/distribution/Makefile	/^PKGS := $(shell go list -tags "${DOCKER_BUILDTAGS}" .\/... | grep -v ^github.com\/docker\/distribution\/vendor\/)$/;"	m
+PREFIX	vendor/github.com/docker/distribution/Makefile	/^PREFIX?=$(shell pwd)$/;"	m
+Plugins_CNI	plugins_install.sh	/^Plugins_CNI()$/;"	f
+REDUCELOOP	vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^REDUCELOOP:$/;"	l
+SRCFILES	Makefile	/^SRCFILES=cni-genie.go$/;"	m
+SRCFILES	controllers/network-admission-controller/Makefile	/^SRCFILES = $(wildcard *.go)$/;"	m
+SRCFILES	controllers/network-policy-controller/Makefile	/^SRCFILES = $(wildcard *.go) $/;"	m
+TARG	vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^TARG=github.com\/golang\/protobuf\/compiler\/generator$/;"	m
+TEST_SRCFILES	Makefile	/^TEST_SRCFILES=$(wildcard *_test.go)$/;"	m
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/crypto/curve25519/cswap_amd64.s	/^TEXT ·cswap(SB),7,$0$/;"	l
+TEXT	vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^TEXT ·freeze(SB),7,$96-8$/;"	l
+TEXT	vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s	/^TEXT ·ladderstep(SB),0,$384-8$/;"	l
+TEXT	vendor/golang.org/x/crypto/curve25519/mul_amd64.s	/^TEXT ·mul(SB),0,$128-24$/;"	l
+TEXT	vendor/golang.org/x/crypto/curve25519/square_amd64.s	/^TEXT ·square(SB),7,$96-16$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+URL	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^URL="https:\/\/raw.githubusercontent.com\/google\/protobuf\/master\/src\/google\/protobuf\/"$/;"	m
+VERSION	vendor/github.com/docker/distribution/Makefile	/^	VERSION:="$(VERSION)-noopt"$/;"	m
+VERSION	vendor/github.com/docker/distribution/Makefile	/^VERSION=$(shell git describe --match 'v[0-9]*' --dirty='.m' --always)$/;"	m
+_STRINGIFY2_	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY2_	vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY_	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_STRINGIFY_	vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_build	vendor/github.com/ugorji/go/codec/prebuild.sh	/^_build() {$/;"	f
+_codegenerators	vendor/github.com/ugorji/go/codec/prebuild.sh	/^_codegenerators() {$/;"	f
+_init	vendor/github.com/ugorji/go/codec/prebuild.sh	/^_init() {$/;"	f
+_needgen	vendor/github.com/ugorji/go/codec/prebuild.sh	/^_needgen() {$/;"	f
+_run	vendor/github.com/ugorji/go/codec/tests.sh	/^_run() {$/;"	f
+acbuildEnd	vendor/github.com/coreos/etcd/scripts/build-aci	/^acbuildEnd() {$/;"	f
+basic_auth_version_check	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function basic_auth_version_check() {$/;"	f
+build	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function build() {$/;"	f
+build_pass	vendor/github.com/coreos/etcd/test	/^function build_pass {$/;"	f
+build_sysctl	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_sysctl	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_tags	vendor/github.com/mailru/easyjson/Makefile	/^	.root\/bin\/easyjson -build_tags=use_easyjson .root\/src\/$(PKG)\/benchmark\/data.go$/;"	m
+build_test_data	vendor/github.com/ugorji/go/codec/test.py	/^def build_test_data(destdir):$/;"	f
+cbor	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+choose	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function choose {$/;"	f
+choose	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function choose {$/;"	f
+cleanup	vendor/github.com/containernetworking/cni/scripts/docker-run.sh	/^function cleanup() {$/;"	f
+cleanup	vendor/github.com/containernetworking/cni/scripts/priv-net-run.sh	/^function cleanup() {$/;"	f
+compile_pass	vendor/github.com/coreos/etcd/test	/^function compile_pass {$/;"	f
+convertDropin	vendor/github.com/coreos/etcd/contrib/systemd/etcd2-backup-coreos/etcd2-join	/^function convertDropin {$/;"	f
+cp_t	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function cp_t() {$/;"	f
+cycle	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle {$/;"	f
+cycle	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle {$/;"	f
+cycle_cbridge	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_cbridge {$/;"	f
+cycle_cbridge	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_cbridge {$/;"	f
+cycle_members	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_members {$/;"	f
+cycle_members	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_members {$/;"	f
+cycle_pbridge	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_pbridge {$/;"	f
+cycle_pbridge	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_pbridge {$/;"	f
+cycle_stresser	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_stresser {$/;"	f
+cycle_stresser	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_stresser {$/;"	f
+debug	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+debug	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+dep_pass	vendor/github.com/coreos/etcd/test	/^function dep_pass {$/;"	f
+die	vendor/github.com/gogo/protobuf/install-protobuf.sh	/^die() {$/;"	f
+die	vendor/github.com/golang/protobuf/ptypes/regen.sh	/^function die() {$/;"	f
+doMain	vendor/github.com/ugorji/go/codec/test.py	/^def doMain(args):$/;"	f
+doRpcClientToGoSvc	vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToGoSvc(port):$/;"	f
+doRpcClientToPythonSvc	vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToPythonSvc(port):$/;"	f
+doRpcServer	vendor/github.com/ugorji/go/codec/test.py	/^def doRpcServer(port, stopTimeSec):$/;"	f
+docker_t	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function docker_t() {$/;"	f
+e2e_pass	vendor/github.com/coreos/etcd/test	/^function e2e_pass {$/;"	f
+err	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+err	vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+etcd_build	vendor/github.com/coreos/etcd/build	/^etcd_build() {$/;"	f
+etcd_setup_gopath	vendor/github.com/coreos/etcd/build	/^etcd_setup_gopath() {$/;"	f
+exec_plugins	vendor/github.com/containernetworking/cni/scripts/exec-plugins.sh	/^function exec_plugins() {$/;"	f
+exec_t	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function exec_t() {$/;"	f
+fmt	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt	vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt_pass	vendor/github.com/coreos/etcd/test	/^function fmt_pass {$/;"	f
+fp_activate	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_activate {$/;"	f
+fp_activate	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_activate {$/;"	f
+fp_all_rand_fire	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_all_rand_fire {$/;"	f
+fp_all_rand_fire	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_all_rand_fire {$/;"	f
+fp_rand_all	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_rand_all {$/;"	f
+fp_rand_all	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_rand_all {$/;"	f
+fp_rand_single	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_rand_single {$/;"	f
+fp_rand_single	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_rand_single {$/;"	f
+gccgoRealSyscall	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+gccgoRealSyscall	vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+get_file_t	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function get_file_t() {$/;"	f
+get_test_data_list	vendor/github.com/ugorji/go/codec/test.py	/^def get_test_data_list():$/;"	f
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/any";' 'go_package = "types";' .\/google\/protobuf\/any.proto$/;"	m
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/duration";' 'go_package = "types";' .\/google\/protobuf\/duration.proto$/;"	m
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/empty";' 'go_package = "types";' .\/google\/protobuf\/empty.proto$/;"	m
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/struct;structpb";' 'go_package = "types";' .\/google\/protobuf\/struct.proto$/;"	m
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/timestamp";' 'go_package = "types";' .\/google\/protobuf\/timestamp.proto$/;"	m
+go_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/wrappers";' 'go_package = "types";' .\/google\/protobuf\/wrappers.proto$/;"	m
+goroot	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+goroot	vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+grpcproxy_pass	vendor/github.com/coreos/etcd/test	/^function grpcproxy_pass {$/;"	f
+has_digest	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function has_digest() {$/;"	f
+install_ca	vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_ca() {$/;"	f
+install_test_certs	vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_test_certs() {$/;"	f
+integration_e2e_pass	vendor/github.com/coreos/etcd/test	/^function integration_e2e_pass {$/;"	f
+integration_pass	vendor/github.com/coreos/etcd/test	/^function integration_pass {$/;"	f
+is	vendor/github.com/spf13/pflag/verify/all.sh	/^function is-excluded {$/;"	f
+kill_all	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function kill_all {$/;"	f
+kill_all	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function kill_all {$/;"	f
+kill_maj	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function kill_maj {$/;"	f
+kill_maj	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function kill_maj {$/;"	f
+login	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login() {$/;"	f
+login_oauth	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login_oauth() {$/;"	f
+main	vendor/github.com/coreos/etcd/scripts/build-binary	/^function main {$/;"	f
+msgpack	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+msgpackrpc	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+myStopRpcServer	vendor/github.com/ugorji/go/codec/test.py	/^        def myStopRpcServer():$/;"	m	class:doRpcServer.EchoHandler
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "github.com\/golang\/protobuf\/protoc-gen-go\/descriptor;descriptor";' 'option go_package = "descriptor";' .\/google\/protobuf\/descriptor.proto$/;"	m
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "github.com\/golang\/protobuf\/protoc-gen-go\/plugin;plugin_go";' 'option go_package = "plugin_go";' .\/google\/protobuf\/compiler\/plugin.proto$/;"	m
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/api;api";' 'option go_package = "types";' .\/google\/protobuf\/api.proto$/;"	m
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/field_mask;field_mask";' 'option go_package = "types";' .\/google\/protobuf\/field_mask.proto$/;"	m
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/ptype;ptype";' 'option go_package = "types";' .\/google\/protobuf\/type.proto$/;"	m
+o_package	vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/source_context;source_context";' 'option go_package = "types";' .\/google\/protobuf\/source_context.proto$/;"	m
+options	plugins_install.sh	/^options () {$/;"	f
+os	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+package	vendor/github.com/coreos/etcd/scripts/build-binary	/^function package {$/;"	f
+parse_version	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function parse_version() {$/;"	f
+parseparam	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparam	vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparamlist	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+r	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+r	vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+rand_fp	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function rand_fp {$/;"	f
+rand_fp	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function rand_fp {$/;"	f
+release_pass	vendor/github.com/coreos/etcd/test	/^function release_pass {$/;"	f
+ret	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+ret	vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+run	plugins_install.sh	/^run () {$/;"	f
+set_etc_hosts	vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^set_etc_hosts() {$/;"	f
+setup_env	vendor/github.com/coreos/etcd/scripts/build-binary	/^function setup_env {$/;"	f
+sys	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+t	vendor/github.com/ugorji/go/codec/test.py	/^        t = threading.Timer(stopTimeSec, myStopRpcServer)$/;"	v	class:doRpcServer.EchoHandler
+tempImage	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function tempImage() {$/;"	f
+testdirs	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testdirs	vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testrun	vendor/github.com/containernetworking/cni/test.sh	/^function testrun {$/;"	f
+threading	vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+toggle_failpoints	vendor/github.com/coreos/etcd/build	/^toggle_failpoints() {$/;"	f
+uniq	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+uniq	vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+unit_pass	vendor/github.com/coreos/etcd/test	/^function unit_pass {$/;"	f
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unroot	vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+unroot	vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+use	vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+use	vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+version	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ proto3.proto$/;"	m
+version	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ proto3.proto$/;"	m
+version	vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ proto3.proto$/;"	m
+version_check	vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function version_check() {$/;"	f
+wait_time	vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function wait_time {$/;"	f
+wait_time	vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function wait_time {$/;"	f

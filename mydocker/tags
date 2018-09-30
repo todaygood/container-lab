@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEPS	vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DIRS	vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+GOSYM_PREFIX	vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+PACKAGE_NAME	vendor/github.com/urfave/cli/runtests	/^PACKAGE_NAME = os.environ.get($/;"	v
+TEXT	vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+_FancyFormatter	vendor/github.com/urfave/cli/generate-flag-types	/^                      argparse.RawDescriptionHelpFormatter):$/;"	c
+_STRINGIFY2_	vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY_	vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_WRITEFUNCS	vendor/github.com/urfave/cli/generate-flag-types	/^_WRITEFUNCS = {$/;"	v
+_combine_coverprofiles	vendor/github.com/urfave/cli/runtests	/^def _combine_coverprofiles(coverprofiles):$/;"	f
+_fwrite	vendor/github.com/urfave/cli/generate-flag-types	/^def _fwrite(outfile, text):$/;"	f
+_gen	vendor/github.com/urfave/cli/runtests	/^def _gen():$/;"	f
+_generate_flag_types	vendor/github.com/urfave/cli/generate-flag-types	/^def _generate_flag_types(writefunc, output_go, input_json):$/;"	f
+_gfmrun	vendor/github.com/urfave/cli/runtests	/^def _gfmrun():$/;"	f
+_gfmrun_count	vendor/github.com/urfave/cli/runtests	/^def _gfmrun_count():$/;"	f
+_is_go_runnable	vendor/github.com/urfave/cli/runtests	/^def _is_go_runnable(line):$/;"	f
+_run	vendor/github.com/urfave/cli/runtests	/^def _run(command):$/;"	f
+_set_typedef_defaults	vendor/github.com/urfave/cli/generate-flag-types	/^def _set_typedef_defaults(typedef):$/;"	f
+_test	vendor/github.com/urfave/cli/runtests	/^def _test():$/;"	f
+_toc	vendor/github.com/urfave/cli/runtests	/^def _toc():$/;"	f
+_vet	vendor/github.com/urfave/cli/runtests	/^def _vet():$/;"	f
+_write_altsrc_flag_types	vendor/github.com/urfave/cli/generate-flag-types	/^def _write_altsrc_flag_types(outfile, types):$/;"	f
+_write_cli_flag_types	vendor/github.com/urfave/cli/generate-flag-types	/^def _write_cli_flag_types(outfile, types):$/;"	f
+argparse	vendor/github.com/urfave/cli/generate-flag-types	/^import argparse$/;"	i
+argparse	vendor/github.com/urfave/cli/runtests	/^import argparse$/;"	i
+build_sysctl	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+check_call	vendor/github.com/urfave/cli/runtests	/^from subprocess import check_call, check_output$/;"	i
+check_output	vendor/github.com/urfave/cli/runtests	/^from subprocess import check_call, check_output$/;"	i
+debug	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+err	vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+finish	vendor/github.com/dsnet/compress/bench.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+finish	vendor/github.com/dsnet/compress/build.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+finish	vendor/github.com/dsnet/compress/test.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+fmt	vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+gccgoRealSyscall	vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+goroot	vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+json	vendor/github.com/urfave/cli/generate-flag-types	/^import json$/;"	i
+main	vendor/github.com/urfave/cli/generate-flag-types	/^def main(sysargs=sys.argv[:]):$/;"	f
+main	vendor/github.com/urfave/cli/runtests	/^def main(sysargs=sys.argv[:]):$/;"	f
+os	vendor/github.com/urfave/cli/generate-flag-types	/^import os$/;"	i
+os	vendor/github.com/urfave/cli/runtests	/^import os$/;"	i
+parseparam	vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparamlist	vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+print_function	vendor/github.com/urfave/cli/generate-flag-types	/^from __future__ import print_function, unicode_literals$/;"	i
+print_function	vendor/github.com/urfave/cli/runtests	/^from __future__ import print_function$/;"	i
+r	vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+ret	vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+subprocess	vendor/github.com/urfave/cli/generate-flag-types	/^import subprocess$/;"	i
+sys	vendor/github.com/urfave/cli/generate-flag-types	/^import sys$/;"	i
+sys	vendor/github.com/urfave/cli/runtests	/^import sys$/;"	i
+tempfile	vendor/github.com/urfave/cli/generate-flag-types	/^import tempfile$/;"	i
+tempfile	vendor/github.com/urfave/cli/runtests	/^import tempfile$/;"	i
+testdirs	vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+textwrap	vendor/github.com/urfave/cli/generate-flag-types	/^import textwrap$/;"	i
+unicode_literals	vendor/github.com/urfave/cli/generate-flag-types	/^from __future__ import print_function, unicode_literals$/;"	i
+uniq	vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+unix	vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unroot	vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+use	vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f

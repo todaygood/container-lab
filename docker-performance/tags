@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Decimal	utils/histogram.py	/^from decimal import Decimal$/;"	i
+MVSD	utils/histogram.py	/^class MVSD(object):$/;"	c
+OptionParser	utils/histogram.py	/^from optparse import OptionParser$/;"	i
+__init__	utils/histogram.py	/^    def __init__(self):$/;"	m	class:MVSD
+add	utils/histogram.py	/^    def add(self, x, w=1):$/;"	m	class:MVSD
+help	utils/histogram.py	/^                        help="Comma seperated list of bucket edges for the histogram")$/;"	v
+help	utils/histogram.py	/^                        help="Disable the calculation of Mean, Variance and SD (improves performance)")$/;"	v
+help	utils/histogram.py	/^                        help="Number of buckets to use for the histogram")$/;"	v
+help	utils/histogram.py	/^                        help="maximum value for graph")$/;"	v
+help	utils/histogram.py	/^                        help="minimum value for graph")$/;"	v
+histogram	utils/histogram.py	/^def histogram(stream, options):$/;"	f
+load_stream	utils/histogram.py	/^def load_stream(input_stream):$/;"	f
+math	utils/histogram.py	/^import math$/;"	i
+mean	utils/histogram.py	/^    def mean(self):$/;"	m	class:MVSD
+median	utils/histogram.py	/^def median(values):$/;"	f
+parser	utils/histogram.py	/^    parser = OptionParser()$/;"	v
+run_cpu_test	bench/sysbench/run-sysbench.sh	/^function run_cpu_test {$/;"	f
+run_oltp_test	bench/sysbench/run-sysbench.sh	/^function run_oltp_test {$/;"	f
+sd	utils/histogram.py	/^    def sd(self):$/;"	m	class:MVSD
+setup_oltp_database	bench/sysbench/run-sysbench.sh	/^function setup_oltp_database {$/;"	f
+setup_oltp_test	bench/sysbench/run-sysbench.sh	/^function setup_oltp_test {$/;"	f
+sys	utils/histogram.py	/^import sys$/;"	i
+test_median	utils/histogram.py	/^def test_median():$/;"	f
+test_mvsd	utils/histogram.py	/^def test_mvsd():$/;"	f
+timestamp	bench/sysbench/run-sysbench.sh	/^function timestamp {$/;"	f
+var	utils/histogram.py	/^    def var(self):$/;"	m	class:MVSD
