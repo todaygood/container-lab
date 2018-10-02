@@ -4,9 +4,780 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+-default	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc-gen-combo --default=false --gogo_out=. --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-default	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-gen-combo --default=false --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-default	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc-gen-combo --default=false --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-default	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-gen-combo --default=false --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-format	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^	 git log --format='%aN <%aE>' | sort -fu > $@$/;"	m
+-format	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^	 git log --format='%aN <%aE>' | sort -fu > $@$/;"	m
+-go_out	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/proto/Makefile	/^	protoc --go_out=Mtestdata\/test.proto=github.com\/golang\/protobuf\/proto\/testdata,Mgoogle\/protobuf\/any.proto=github.com\/golang\/protobuf\/ptypes\/any:. proto3_proto\/proto3.proto$/;"	m
+-go_out	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/Makefile	/^	protoc --go_out=. -I$(HOME)\/src\/protobuf\/src $(HOME)\/src\/protobuf\/src\/google\/protobuf\/descriptor.proto && \\$/;"	m
+-go_out	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/Makefile	/^	protoc --go_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/golang\/protobuf\/protoc-gen-go\/descriptor:. \\$/;"	m
+-go_out	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/Makefile	/^	protoc --go_out=. multi\/multi{1,2,3}.proto$/;"	m
+-go_out	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/Makefile	/^	protoc --go_out=Mmulti\/multi1.proto=github.com\/golang\/protobuf\/protoc-gen-go\/testdata\/multi:. $<$/;"	m
+-gofast_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gofast_out=.\/gofast\/ vanity.proto$/;"	m
+-gofast_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gofast_out=.\/gofast\/ vanity.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/gogoproto/Makefile	/^	protoc --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:..\/..\/..\/..\/ --proto_path=..\/..\/..\/..\/:..\/protobuf\/:. *.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/Makefile	/^	protoc --gogo_out=. -I=..\/..\/protobuf\/google\/protobuf ..\/..\/protobuf\/google\/protobuf\/descriptor.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protoc-gen-gogo/plugin/Makefile	/^	protoc --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. -I=..\/..\/protobuf\/google\/protobuf\/compiler\/:..\/..\/protobuf\/ ..\/..\/protobuf\/google\/protobuf\/compiler\/plugin.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc --gogo_out=. multi\/multi1.proto multi\/multi2.proto multi\/multi3.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc --gogo_out=. --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/casttype/Makefile	/^	protoc-gen-combo --gogo_out=. --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. casttype.proto$/;"	m
+-gogo_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/filedotname/Makefile	/^	protoc --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. file.dot.proto$/;"	m
+-gogo_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc --gogo_out=. multi\/multi{1,2,3}.proto$/;"	m
+-gogo_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc --gogo_out=Mmulti\/multi1.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/testdata\/multi:. $<$/;"	m
+-gogo_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/Makefile	/^	protoc --gogo_out=. --proto_path=..\/:..\/..\/..\/..\/:..\/protobuf\/:. thetest.proto$/;"	m
+-gogo_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/filedotname/Makefile	/^	protoc --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. file.dot.proto$/;"	m
+-gogofast_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofast_out=.\/fast\/ vanity.proto$/;"	m
+-gogofast_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofast_out=.\/fast\/ vanity.proto$/;"	m
+-gogofaster_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofaster_out=.\/faster\/ vanity.proto$/;"	m
+-gogofaster_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogofaster_out=.\/faster\/ vanity.proto$/;"	m
+-gogoslick_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogoslick_out=.\/slick\/ vanity.proto$/;"	m
+-gogoslick_out	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --gogoslick_out=.\/slick\/ vanity.proto$/;"	m
+-gostring_out	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/Makefile	/^	protoc --gostring_out=. -I=..\/..\/protobuf\/google\/protobuf ..\/..\/protobuf\/google\/protobuf\/descriptor.proto$/;"	m
+-osarch	docker-network/multus-cni/vendor/golang.org/x/net/http2/h2demo/Makefile	/^	upload --verbose --osarch=linux-amd64 --tags=h2demo --file=go:golang.org\/x\/net\/http2\/h2demo --public http2-demo-server-tls\/h2demo$/;"	m
+-proto_path	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/fuzztests/Makefile	/^	protoc  --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=. fuzz.proto$/;"	m
+-proto_path	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue312/events/Makefile	/^	protoc --proto_path=.:$(GOPATH)\/src\/:$(GOPATH)\/src\/github.com\/gogo\/protobuf\/protobuf\/ \\$/;"	m
+-proto_path	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ gogovanity.proto$/;"	m
+-proto_path	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ gogovanity.proto$/;"	m
+-proto_path	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ gogovanity.proto$/;"	m
+-proto_path	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/fuzztests/Makefile	/^	protoc  --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=. fuzz.proto/;"	m
+-proto_path	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ gogovanity.proto$/;"	m
+-proto_path	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ gogovanity.proto$/;"	m
+-proto_path	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ gogovanity.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/proto/Makefile	/^	protoc-min-version --version="3.0.0" --proto_path=.:..\/..\/..\/..\/:..\/protobuf --gogo_out=Mtestdata\/test.proto=github.com\/gogo\/protobuf\/proto\/testdata,Mgoogle\/protobuf\/any.proto=github.com\/gogo\/protobuf\/types:. proto3_proto\/proto3.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/proto/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. test.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	--version="3.0.0" \\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mmulti\/multi1.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/testdata\/multi:. .\/my_test\/test.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/data/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. \\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/enumdecl/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. enumdecl.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/enumdecl_all/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. enumdeclall.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/importduplicate/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=:. \\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue260/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/timestamp.proto=github.com\/gogo\/protobuf\/types:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. issue260.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue261/Makefile	/^	protoc-min-version --version="3.0.0" --gogoslick_out=\\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue262/Makefile	/^	protoc-min-version --version="3.0.0" --proto_path=.:$(GOPATH)\/src\/:$(GOPATH)\/src\/github.com\/gogo\/protobuf\/protobuf\/ \\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue322/Makefile	/^	protoc-min-version --version="3.0.0" --gogofast_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/issue330/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/mapdefaults/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogo_out=. map.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/mapsproto2/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. mapsproto2.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/oneof/Makefile	/^	protoc-gen-combo --version="2.6.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/oneof3/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/proto3extension/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=Mgoogle\/protobuf\/descriptor.proto=github.com\/gogo\/protobuf\/protoc-gen-gogo\/descriptor:. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. *.proto/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/stdtypes/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=\\$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/theproto3/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. theproto3.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/typedecl/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedecl.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/typedecl_all/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedeclall.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/typedeclimport/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. .\/subpkg\/subpkg.proto/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/typedeclimport/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. typedeclimport.proto$/;"	m
+-version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/test/types/Makefile	/^	protoc-gen-combo --version="3.0.0" --gogo_out=\\$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/proto/Makefile	/^	protoc-min-version --version="3.0.0" --proto_path=.:..\/..\/..\/..\/ --gogo_out=. proto3_proto\/proto3.proto$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/proto/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. test.proto$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/protoc-gen-gogo/testdata/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. .\/my_test\/test.proto$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/casttype/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. casttype.proto$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/castvalue/Makefile	/^	protoc-min-version --version="3.0.0" --gogo_out=. --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. castvalue.proto$/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/mapsproto2/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. mapsproto2.proto/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/oneof/Makefile	/^	protoc-gen-combo --version="2.6.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/oneof3/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. one.proto/;"	m
+-version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/test/theproto3/Makefile	/^	protoc-gen-combo --version="3.0.0" --proto_path=..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. theproto3.proto$/;"	m
+BYTESATLEAST256	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	BYTESATLEAST256:$/;"	l
+BYTESATLEAST64	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	BYTESATLEAST64:$/;"	l
+BYTESATLEAST65	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	BYTESATLEAST65:$/;"	l
+BYTESBETWEEN1AND255	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	BYTESBETWEEN1AND255:$/;"	l
+CFSSL	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/hack/tls-setup/Makefile	/^CFSSL	= @env PATH=$(GOPATH)\/bin:$(PATH) cfssl$/;"	m
+DATA	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·REDMASK51(SB)\/8, $0x0007FFFFFFFFFFFF$/;"	l
+DATA	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_121666_213(SB)\/8, $996687872$/;"	l
+DATA	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P0(SB)\/8, $0xFFFFFFFFFFFDA$/;"	l
+DATA	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P1234(SB)\/8, $0xFFFFFFFFFFFFE$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·REDMASK51(SB)\/8, $0x0007FFFFFFFFFFFF$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_121666_213(SB)\/8, $996687872$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P0(SB)\/8, $0xFFFFFFFFFFFDA$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^DATA ·_2P1234(SB)\/8, $0xFFFFFFFFFFFFE$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^DATA poly1305Mask<>+0x00(SB)\/8, $0x0FFFFFFC0FFFFFFF$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^DATA poly1305Mask<>+0x08(SB)\/8, $0x0FFFFFFC0FFFFFFC$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^DATA poly1305_init_constants_armv6<>+0x00(SB)\/4, $0x3ffffff$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^DATA poly1305_init_constants_armv6<>+0x04(SB)\/4, $0x3ffff03$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^DATA poly1305_init_constants_armv6<>+0x08(SB)\/4, $0x3ffc0ff$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^DATA poly1305_init_constants_armv6<>+0x0c(SB)\/4, $0x3f03fff$/;"	l
+DATA	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^DATA poly1305_init_constants_armv6<>+0x10(SB)\/4, $0x00fffff$/;"	l
+DEBUG_LOG	container_cpu_detection/detection.c	30;"	d	file:
+DEBUG_LOG	container_cpu_detection/detection.c	37;"	d	file:
+DEPS	docker-network/CNI-Genie/controllers/network-policy-controller/Makefile	/^DEPS = $(SRCFILES) \\$/;"	m
+DEPS	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DEPS	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^DEPS=..\/descriptor ..\/plugin ..\/..\/proto$/;"	m
+DEPS	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DEPS	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DEPS	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DEPS	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^DEPS = \\$/;"	m
+DETECTION_ERROR	container_cpu_detection/detection.c	19;"	d	file:
+DETECTION_MIN	container_cpu_detection/detection.c	27;"	d	file:
+DETECTION_OK	container_cpu_detection/detection.c	18;"	d	file:
+DETECTION_TARGETS	container_cpu_detection/detection.c	15;"	d	file:
+DIRS	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DIRS	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DIRS	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DIRS	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DIRS	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^DIRS := \\$/;"	m
+DOCKER_CMD	container_cpu_detection/Makefile	/^DOCKER_CMD = \/tmp\/sysconf_test$/;"	m
+DOCKER_DOCS_IMAGE	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_DOCS_IMAGE := docs-base$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_DOCS_IMAGE	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_DOCS_IMAGE := docs-base$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_ENVS	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_ENVS := \\$/;"	m
+DOCKER_ENVS	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_ENVS := \\$/;"	m
+DOCKER_IMAGE	container_cpu_detection/Makefile	/^DOCKER_IMAGE = ubuntu$/;"	m
+DOCKER_IMAGE	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IMAGE := docker$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_IMAGE	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IMAGE := docker$(if $(GIT_BRANCH),:$(GIT_BRANCH))$/;"	m
+DOCKER_IP	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IP=$(shell python -c "import urlparse ; print urlparse.urlparse('$(DOCKER_HOST)').hostname or ''")$/;"	m
+DOCKER_IP	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_IP=$(shell python -c "import urlparse ; print urlparse.urlparse('$(DOCKER_HOST)').hostname or ''")$/;"	m
+DOCKER_RUN_DOCS	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_RUN_DOCS := docker run --rm -it $(DOCS_MOUNT) -e AWS_S3_BUCKET -e NOCACHE$/;"	m
+DOCKER_RUN_DOCS	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCKER_RUN_DOCS := docker run --rm -it $(DOCS_MOUNT) -e AWS_S3_BUCKET -e NOCACHE$/;"	m
+DOCKER_RUN_OPTS	container_cpu_detection/Makefile	/^DOCKER_RUN_OPTS = $(shell echo "-ti --rm" \\$/;"	m
+DOCSPORT	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCSPORT := 8000$/;"	m
+DOCSPORT	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCSPORT := 8000$/;"	m
+DOCS_MOUNT	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^DOCS_MOUNT := $(if $(DOCSDIR),-v $(CURDIR)\/$(DOCSDIR):\/$(DOCSDIR))$/;"	m
+DOCS_MOUNT	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^DOCS_MOUNT := $(if $(DOCSDIR),-v $(CURDIR)\/$(DOCSDIR):\/$(DOCSDIR))$/;"	m
+DONE	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	DONE:$/;"	l
+Decimal	docker-performance/utils/histogram.py	/^from decimal import Decimal$/;"	i
+Delete_AllPlugins	docker-network/CNI-Genie/plugins_install.sh	/^Delete_AllPlugins() {$/;"	f
+Echo123	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^        def Echo123(self, msg1, msg2, msg3):$/;"	m	class:doRpcServer.EchoHandler
+Echo123	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^        def Echo123(self, msg1, msg2, msg3):$/;"	m	class:doRpcServer.EchoHandler
+EchoHandler	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^    class EchoHandler(object):$/;"	c	function:doRpcServer
+EchoHandler	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^    class EchoHandler(object):$/;"	c	function:doRpcServer
+EchoStruct	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^        def EchoStruct(self, msg):$/;"	m	class:doRpcServer.EchoHandler
+EchoStruct	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^        def EchoStruct(self, msg):$/;"	m	class:doRpcServer.EchoHandler
 GET	dockerfile/python/centos6/index.py	/^    def GET(self):$/;"	m	class:index
 GET	dockerfile/python/centos7/index.py	/^    def GET(self):$/;"	m	class:index
+GITCOMMIT	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^GITCOMMIT := $(shell git rev-parse --short HEAD 2>\/dev\/null)$/;"	m
+GITCOMMIT	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^GITCOMMIT := $(shell git rev-parse --short HEAD 2>\/dev\/null)$/;"	m
+GIT_BRANCH	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD 2>\/dev\/null)$/;"	m
+GIT_BRANCH	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD 2>\/dev\/null)$/;"	m
+GLOBL	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·REDMASK51(SB), 8, $8$/;"	l
+GLOBL	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_121666_213(SB), 8, $8$/;"	l
+GLOBL	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P0(SB), 8, $8$/;"	l
+GLOBL	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P1234(SB), 8, $8$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·REDMASK51(SB), 8, $8$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_121666_213(SB), 8, $8$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P0(SB), 8, $8$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/const_amd64.s	/^GLOBL ·_2P1234(SB), 8, $8$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^GLOBL poly1305Mask<>(SB), RODATA, $16$/;"	l
+GLOBL	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^GLOBL poly1305_init_constants_armv6<>(SB), 8, $20$/;"	l
+GO15VENDOREXPERIMENT	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^GO15VENDOREXPERIMENT := 1$/;"	m
+GO15VENDOREXPERIMENT	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^GO15VENDOREXPERIMENT := 1$/;"	m
+GODEP	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^GODEP := $(shell which godep || echo '')$/;"	m
+GODEP	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^GODEP := $(shell which godep || echo '')$/;"	m
+GOFILES	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^GOFILES=\\$/;"	m
+GOLINT	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^GOLINT := $(shell which golint || echo '')$/;"	m
+GOLINT	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^GOLINT := $(shell which golint || echo '')$/;"	m
+GOOS	docker-network/multus-cni/vendor/golang.org/x/net/http2/h2demo/Makefile	/^	GOOS=linux go build --tags=h2demo -o h2demo.linux .$/;"	m
+GOPATH	docker-network/CNI-Genie/vendor/github.com/mailru/easyjson/Makefile	/^GOPATH:=$(PWD)\/.root:$(GOPATH)$/;"	m
+GOPATH	docker-network/multus-cni/vendor/github.com/mailru/easyjson/Makefile	/^GOPATH:=$(PWD)\/.root:$(GOPATH)$/;"	m
+GOSYM_PREFIX	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GOSYM_PREFIX	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GOSYM_PREFIX	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GOSYM_PREFIX	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GOSYM_PREFIX	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	13;"	d	file:
+GO_GCFLAGS	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^	GO_GCFLAGS=-gcflags "-N -l"$/;"	m
+GO_GCFLAGS	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^	GO_GCFLAGS=-gcflags "-N -l"$/;"	m
+GO_LDFLAGS	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^GO_LDFLAGS=-ldflags "-X `go list .\/version`.Version=$(VERSION)"$/;"	m
+GO_LDFLAGS	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^GO_LDFLAGS=-ldflags "-X `go list .\/version`.Version=$(VERSION)"$/;"	m
+GO_PATH	docker-network/CNI-Genie/Makefile	/^GO_PATH=$(GOPATH)$/;"	m
+GO_PATH	docker-network/CNI-Genie/controllers/network-admission-controller/Makefile	/^GO_PATH = $(GOPATH)$/;"	m
+GO_PATH	docker-network/CNI-Genie/controllers/network-policy-controller/Makefile	/^GO_PATH = $(GOPATH)$/;"	m
+GO_VERSION	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/Makefile	/^GO_VERSION:=$(shell go version)$/;"	m
+HUGO_BASE_URL	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BASE_URL=$(shell test -z "$(DOCKER_IP)" && echo localhost || echo "$(DOCKER_IP)")$/;"	m
+HUGO_BASE_URL	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BASE_URL=$(shell test -z "$(DOCKER_IP)" && echo localhost || echo "$(DOCKER_IP)")$/;"	m
+HUGO_BIND_IP	docker-network/CNI-Genie/vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BIND_IP=0.0.0.0$/;"	m
+HUGO_BIND_IP	docker-network/multus-cni/vendor/github.com/docker/distribution/docs/Makefile	/^HUGO_BIND_IP=0.0.0.0$/;"	m
+Install_Calico	docker-network/CNI-Genie/plugins_install.sh	/^Install_Calico() {$/;"	f
+Install_Flannel	docker-network/CNI-Genie/plugins_install.sh	/^Install_Flannel() {$/;"	f
+Install_Romana	docker-network/CNI-Genie/plugins_install.sh	/^Install_Romana() {$/;"	f
+Install_Weave	docker-network/CNI-Genie/plugins_install.sh	/^Install_Weave() {$/;"	f
+JSON	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/hack/tls-setup/Makefile	/^JSON	= env PATH=$(GOPATH)\/bin:$(PATH) cfssljson$/;"	m
+MAINLOOP1	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	MAINLOOP1:$/;"	l
+MAINLOOP2	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	MAINLOOP2:$/;"	l
+MAKE_SURE_DIST_EXIST	docker-network/CNI-Genie/Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+MAKE_SURE_DIST_EXIST	docker-network/CNI-Genie/controllers/network-admission-controller/Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+MAKE_SURE_DIST_EXIST	docker-network/CNI-Genie/controllers/network-policy-controller/Makefile	/^MAKE_SURE_DIST_EXIST := $(shell mkdir -p dist)$/;"	m
+MAXPATHLEN	container_cpu_detection/detection.c	17;"	d	file:
+MOVHUP_UNALIGNED	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^#define MOVHUP_UNALIGNED(Rsrc, Rdst, Rtmp) \\$/;"	d
+MOVQ_RBI_RCE	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define MOVQ_RBI_RCE MOVQ rBi, rCe$/;"	d
+MOVWP_UNALIGNED	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^#define MOVWP_UNALIGNED(Rsrc, Rdst, Rtmp) \\$/;"	d
+MOVW_UNALIGNED	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^#define MOVW_UNALIGNED(Rsrc, Rdst, Rtmp, offset) \\$/;"	d
+MVSD	docker-performance/utils/histogram.py	/^class MVSD(object):$/;"	c
+NOCOPY	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	NOCOPY:$/;"	l
+OptionParser	docker-performance/utils/histogram.py	/^from optparse import OptionParser$/;"	i
+PACKAGE_NAME	mydocker/vendor/github.com/urfave/cli/runtests	/^PACKAGE_NAME = os.environ.get($/;"	v
+PER_CPU_SHARES	container_cpu_detection/detection.c	21;"	d	file:
+PKG	docker-network/CNI-Genie/vendor/github.com/mailru/easyjson/Makefile	/^PKG=github.com\/mailru\/easyjson$/;"	m
+PKG	docker-network/multus-cni/vendor/github.com/mailru/easyjson/Makefile	/^PKG=github.com\/mailru\/easyjson$/;"	m
+PKGS	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^PKGS := $(shell go list -tags "${DOCKER_BUILDTAGS}" .\/... | grep -v ^github.com\/docker\/distribution\/vendor\/)$/;"	m
+PKGS	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^PKGS := $(shell go list -tags "${DOCKER_BUILDTAGS}" .\/... | grep -v ^github.com\/docker\/distribution\/vendor\/)$/;"	m
+POLY1305_ADD	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^#define POLY1305_ADD(msg, h0, h1, h2) \\$/;"	d
+POLY1305_MUL	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^#define POLY1305_MUL(h0, h1, h2, r0, r1, t0, t1, t2, t3) \\$/;"	d
+POPL	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_386.s	/^	POPL	DI$/;"	d
 PORT	dockerfile/nodejs/centos6/index.js	/^var PORT = 8080;$/;"	v
+PREFIX	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^PREFIX?=$(shell pwd)$/;"	m
+PREFIX	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^PREFIX?=$(shell pwd)$/;"	m
+PUSHL	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_386.s	/^	PUSHL	DI$/;"	d
+Plugins_CNI	docker-network/CNI-Genie/plugins_install.sh	/^Plugins_CNI()$/;"	f
+REDUCELOOP	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^REDUCELOOP:$/;"	l
+REDUCELOOP	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^REDUCELOOP:$/;"	l
+SET_SUBSYSTEM_INFO	container_cpu_detection/detection.c	23;"	d	file:
+SRCFILES	docker-network/CNI-Genie/Makefile	/^SRCFILES=cni-genie.go$/;"	m
+SRCFILES	docker-network/CNI-Genie/controllers/network-admission-controller/Makefile	/^SRCFILES = $(wildcard *.go)$/;"	m
+SRCFILES	docker-network/CNI-Genie/controllers/network-policy-controller/Makefile	/^SRCFILES = $(wildcard *.go) $/;"	m
+START	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^	START:$/;"	l
+TARG	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile	/^TARG=github.com\/golang\/protobuf\/compiler\/generator$/;"	m
+TEST_SRCFILES	docker-network/CNI-Genie/Makefile	/^TEST_SRCFILES=$(wildcard *_test.go)$/;"	m
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/cswap_amd64.s	/^TEXT ·cswap(SB),7,$0$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^TEXT ·freeze(SB),7,$96-8$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s	/^TEXT ·ladderstep(SB),0,$384-8$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/mul_amd64.s	/^TEXT ·mul(SB),0,$128-24$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/crypto/curve25519/square_amd64.s	/^TEXT ·square(SB),7,$96-16$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/cswap_amd64.s	/^TEXT ·cswap(SB),7,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s	/^TEXT ·freeze(SB),7,$96-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s	/^TEXT ·ladderstep(SB),0,$384-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/mul_amd64.s	/^TEXT ·mul(SB),0,$128-24$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/curve25519/square_amd64.s	/^TEXT ·square(SB),7,$96-16$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^TEXT ·poly1305(SB), $0-32$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^TEXT poly1305_blocks_armv6<>(SB),4,$-4$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^TEXT poly1305_finish_ext_armv6<>(SB),4,$-4$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^TEXT poly1305_init_ext_armv6<>(SB),4,$-4$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^TEXT ·poly1305_auth_armv6(SB),0,$280-16$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s	/^TEXT ·salsa2020XORKeyStream(SB),0,$512-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^TEXT ·keccakF1600(SB), 0, $200-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/net/ipv4/thunk_linux_386.s	/^TEXT	·socketcall(SB),4,$0-36$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/net/ipv6/thunk_linux_386.s	/^TEXT	·socketcall(SB),4,$0-36$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/net/route/syscall.s	/^TEXT ·keepAlive(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT ·exit(SB),NOSPLIT,$4-4$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT ·exit(SB),NOSPLIT,$8-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s	/^TEXT ·seek(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_linux_s390x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/asm_windows_386.s	/^TEXT ·getprocaddress(SB), 7, $0-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/asm_windows_386.s	/^TEXT ·loadlibrary(SB), 7, $0-4$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/asm_windows_amd64.s	/^TEXT ·getprocaddress(SB), 7, $0-32$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/asm_windows_amd64.s	/^TEXT ·loadlibrary(SB), 7, $0-8$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_386.s	/^TEXT ·servicectlhandler(SB),7,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_386.s	/^TEXT ·servicemain(SB),7,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_amd64.s	/^TEXT ·servicectlhandler(SB),7,$0$/;"	l
+TEXT	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_amd64.s	/^TEXT ·servicemain(SB),7,$0$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·dlclose(SB), 7, $0-8$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·dlopen(SB), 7, $0-16$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·dlsym(SB), 7, $0-16$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB), 7, $0-64$/;"	l
+TEXT	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB), 7, $0-64$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm.s	/^TEXT ·use(SB),NOSPLIT,$0$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_darwin_arm64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-44$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-32$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-88$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-112$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-64$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_freebsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·rawsocketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·seek(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_386.s	/^TEXT ·socketcall(SB),NOSPLIT,$0-36$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_amd64.s	/^TEXT ·gettimeofday(SB),NOSPLIT,$0-16$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm.s	/^TEXT ·seek(SB),NOSPLIT,$0-32$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_arm64.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s	/^TEXT ·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_netbsd_arm.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-40$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-52$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_386.s	/^TEXT ·RawSyscall(SB),NOSPLIT,$0-28$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·RawSyscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall(SB),NOSPLIT,$0-56$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall6(SB),NOSPLIT,$0-80$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s	/^TEXT	·Syscall9(SB),NOSPLIT,$0-104$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·rawSysvicall6(SB),NOSPLIT,$0-64$/;"	l
+TEXT	mydocker/vendor/golang.org/x/sys/unix/asm_solaris_amd64.s	/^TEXT ·sysvicall6(SB),NOSPLIT,$0-64$/;"	l
+URL	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^URL="https:\/\/raw.githubusercontent.com\/google\/protobuf\/master\/src\/google\/protobuf\/"$/;"	m
+VERSION	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^	VERSION:="$(VERSION)-noopt"$/;"	m
+VERSION	docker-network/CNI-Genie/vendor/github.com/docker/distribution/Makefile	/^VERSION=$(shell git describe --match 'v[0-9]*' --dirty='.m' --always)$/;"	m
+VERSION	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^	VERSION:="$(VERSION)-noopt"$/;"	m
+VERSION	docker-network/multus-cni/vendor/github.com/docker/distribution/Makefile	/^VERSION=$(shell git describe --match 'v[0-9]*' --dirty='.m' --always)$/;"	m
+XORQ_RBA_RCU	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RBA_RCU XORQ rBa, rCu$/;"	d
+XORQ_RBE_RCU	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RBE_RCU XORQ rBe, rCu$/;"	d
+XORQ_RDA_RCA	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RDA_RCA XORQ rDa, rCa$/;"	d
+XORQ_RDE_RCE	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RDE_RCE XORQ rDe, rCe$/;"	d
+XORQ_RDU_RCU	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RDU_RCU XORQ rDu, rCu$/;"	d
+XORQ_RT1_RCA	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RT1_RCA XORQ rT1, rCa$/;"	d
+XORQ_RT1_RCE	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define XORQ_RT1_RCE XORQ rT1, rCe$/;"	d
+_FancyFormatter	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^                      argparse.RawDescriptionHelpFormatter):$/;"	c
+_GNU_SOURCE	container_cpu_detection/detection.c	5;"	d	file:
+_STRINGIFY2_	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY2_	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY2_	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY2_	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY2_	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	11;"	d	file:
+_STRINGIFY_	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_STRINGIFY_	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_STRINGIFY_	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_STRINGIFY_	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_STRINGIFY_	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	12;"	d	file:
+_WRITEFUNCS	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^_WRITEFUNCS = {$/;"	v
 __check	dockerfile/wordpress/centos6/start.sh	/^__check() {$/;"	f
 __check	dockerfile/wordpress/centos7/scripts/start.sh	/^__check() {$/;"	f
 __create_db	dockerfile/postgres/centos6/postgres_user.sh	/^__create_db() {$/;"	f
@@ -19,6 +790,7 @@ __handle_passwords	dockerfile/wordpress/centos6/start.sh	/^__handle_passwords() 
 __handle_passwords	dockerfile/wordpress/centos7/scripts/start.sh	/^__handle_passwords() {$/;"	f
 __httpd_perms	dockerfile/wordpress/centos6/start.sh	/^__httpd_perms() {$/;"	f
 __httpd_perms	dockerfile/wordpress/centos7/scripts/start.sh	/^__httpd_perms() {$/;"	f
+__init__	docker-performance/utils/histogram.py	/^    def __init__(self):$/;"	m	class:MVSD
 __mod_user	dockerfile/postgres/centos6/postgres_user.sh	/^__mod_user() {$/;"	f
 __mysql_config	dockerfile/mysql/centos6/config_mysql.sh	/^__mysql_config() {$/;"	f
 __mysql_config	dockerfile/wordpress/centos6/start.sh	/^__mysql_config() {$/;"	f
@@ -29,17 +801,484 @@ __run_supervisor	dockerfile/postgres/centos7/start_postgres.sh	/^__run_superviso
 __run_supervisor	dockerfile/wordpress/centos6/start.sh	/^__run_supervisor() {$/;"	f
 __start_mysql	dockerfile/mysql/centos6/config_mysql.sh	/^__start_mysql() {$/;"	f
 __start_mysql	dockerfile/wordpress/centos6/start.sh	/^__start_mysql() {$/;"	f
+_ba	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ba  (0*8)$/;"	d
+_be	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _be  (1*8)$/;"	d
+_bi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _bi  (2*8)$/;"	d
+_bo	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _bo  (3*8)$/;"	d
+_bu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _bu  (4*8)$/;"	d
+_build	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_build() {$/;"	f
+_build	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_build() {$/;"	f
+_codegenerators	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_codegenerators() {$/;"	f
+_codegenerators	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_codegenerators() {$/;"	f
+_combine_coverprofiles	mydocker/vendor/github.com/urfave/cli/runtests	/^def _combine_coverprofiles(coverprofiles):$/;"	f
+_fini	container_cpu_detection/detection.c	/^static void _fini()$/;"	f	file:
+_fwrite	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def _fwrite(outfile, text):$/;"	f
+_ga	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ga  (5*8)$/;"	d
+_ge	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ge  (6*8)$/;"	d
+_gen	mydocker/vendor/github.com/urfave/cli/runtests	/^def _gen():$/;"	f
+_generate_flag_types	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def _generate_flag_types(writefunc, output_go, input_json):$/;"	f
+_gfmrun	mydocker/vendor/github.com/urfave/cli/runtests	/^def _gfmrun():$/;"	f
+_gfmrun_count	mydocker/vendor/github.com/urfave/cli/runtests	/^def _gfmrun_count():$/;"	f
+_gi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _gi  (7*8)$/;"	d
+_go	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _go  (8*8)$/;"	d
+_gu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _gu  (9*8)$/;"	d
+_init	container_cpu_detection/detection.c	/^static void _init()$/;"	f	file:
+_init	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_init() {$/;"	f
+_init	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_init() {$/;"	f
+_is_go_runnable	mydocker/vendor/github.com/urfave/cli/runtests	/^def _is_go_runnable(line):$/;"	f
+_ka	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ka (10*8)$/;"	d
+_ke	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ke (11*8)$/;"	d
+_ki	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ki (12*8)$/;"	d
+_ko	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ko (13*8)$/;"	d
+_ku	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ku (14*8)$/;"	d
+_ma	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _ma (15*8)$/;"	d
+_me	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _me (16*8)$/;"	d
+_mi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _mi (17*8)$/;"	d
+_mo	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _mo (18*8)$/;"	d
+_mu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _mu (19*8)$/;"	d
+_needgen	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_needgen() {$/;"	f
+_needgen	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/prebuild.sh	/^_needgen() {$/;"	f
+_orig_sysconf	container_cpu_detection/detection.c	/^static glibc_sysconf _orig_sysconf;$/;"	v	file:
+_run	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/tests.sh	/^_run() {$/;"	f
+_run	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/tests.sh	/^_run() {$/;"	f
+_run	mydocker/vendor/github.com/urfave/cli/runtests	/^def _run(command):$/;"	f
+_sa	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _sa (20*8)$/;"	d
+_se	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _se (21*8)$/;"	d
+_set_typedef_defaults	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def _set_typedef_defaults(typedef):$/;"	f
+_si	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _si (22*8)$/;"	d
+_so	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _so (23*8)$/;"	d
+_su	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define _su (24*8)$/;"	d
+_test	mydocker/vendor/github.com/urfave/cli/runtests	/^def _test():$/;"	f
+_toc	mydocker/vendor/github.com/urfave/cli/runtests	/^def _toc():$/;"	f
+_vet	mydocker/vendor/github.com/urfave/cli/runtests	/^def _vet():$/;"	f
+_write_altsrc_flag_types	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def _write_altsrc_flag_types(outfile, types):$/;"	f
+_write_cli_flag_types	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def _write_cli_flag_types(outfile, types):$/;"	f
+acbuildEnd	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/scripts/build-aci	/^acbuildEnd() {$/;"	f
+account_name	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^const char *account_name(void *opdata, const char *account,$/;"	f
+account_name_free	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void account_name_free(void *opdata, const char *account_name) {}$/;"	f
+add	docker-performance/utils/histogram.py	/^    def add(self, x, w=1):$/;"	m	class:MVSD
 app	dockerfile/nodejs/centos6/index.js	/^var app = express();$/;"	v
 app	dockerfile/python/centos6/index.py	/^    app = web.application(urls, globals())$/;"	v
 app	dockerfile/python/centos7/index.py	/^    app = web.application(urls, globals())$/;"	v
+argparse	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import argparse$/;"	i
+argparse	mydocker/vendor/github.com/urfave/cli/runtests	/^import argparse$/;"	i
+basic_auth_version_check	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function basic_auth_version_check() {$/;"	f
+basic_auth_version_check	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function basic_auth_version_check() {$/;"	f
+build	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function build() {$/;"	f
+build	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function build() {$/;"	f
+build_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function build_pass {$/;"	f
+build_sysctl	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_sysctl	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_sysctl	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_sysctl	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_sysctl	mydocker/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub build_sysctl() {$/;"	s
+build_tags	docker-network/CNI-Genie/vendor/github.com/mailru/easyjson/Makefile	/^	.root\/bin\/easyjson -build_tags=use_easyjson .root\/src\/$(PKG)\/benchmark\/data.go$/;"	m
+build_tags	docker-network/multus-cni/vendor/github.com/mailru/easyjson/Makefile	/^	.root\/bin\/easyjson -build_tags=use_easyjson .root\/src\/$(PKG)\/benchmark\/data.go$/;"	m
+build_test_data	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def build_test_data(destdir):$/;"	f
+build_test_data	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def build_test_data(destdir):$/;"	f
+bytes_between_0_and_15	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^bytes_between_0_and_15:$/;"	l
+cbor	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+cbor	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+ceilf	container_cpu_detection/detection.c	/^static inline float ceilf(float x)$/;"	f	file:
+cgroup_subsystem_info	container_cpu_detection/detection.c	/^} cgroup_subsystem_info;$/;"	t	typeref:struct:__anon2	file:
+check_call	mydocker/vendor/github.com/urfave/cli/runtests	/^from subprocess import check_call, check_output$/;"	i
+check_output	mydocker/vendor/github.com/urfave/cli/runtests	/^from subprocess import check_call, check_output$/;"	i
+choose	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function choose {$/;"	f
+choose	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function choose {$/;"	f
+cleanup	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/scripts/docker-run.sh	/^function cleanup() {$/;"	f
+cleanup	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/scripts/priv-net-run.sh	/^function cleanup() {$/;"	f
+cleanup	docker-network/multus-cni/vendor/github.com/containernetworking/cni/scripts/docker-run.sh	/^function cleanup() {$/;"	f
+cleanup	docker-network/multus-cni/vendor/github.com/containernetworking/cni/scripts/priv-net-run.sh	/^function cleanup() {$/;"	f
+cleanup	docker-network/sriov-cni/scripts/docker-run.sh	/^function cleanup() {$/;"	f
+cleanup	docker-network/sriov-cni/scripts/priv-net-run.sh	/^function cleanup() {$/;"	f
+compile_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function compile_pass {$/;"	f
+convertDropin	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/contrib/systemd/etcd2-backup-coreos/etcd2-join	/^function convertDropin {$/;"	f
+cp_t	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function cp_t() {$/;"	f
+cp_t	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function cp_t() {$/;"	f
+cpu_cfs_period	container_cpu_detection/detection.c	/^static d_string_t cpu_cfs_period  = d_string("\/cpu.cfs_period_us");$/;"	v	file:
+cpu_cfs_quota	container_cpu_detection/detection.c	/^static d_string_t cpu_cfs_quota   = d_string("\/cpu.cfs_quota_us");$/;"	v	file:
+cpu_cfs_shares	container_cpu_detection/detection.c	/^static d_string_t cpu_cfs_shares  = d_string("\/cpu.shares");$/;"	v	file:
+cpu_cpuset_cpus	container_cpu_detection/detection.c	/^static d_string_t cpu_cpuset_cpus = d_string("\/cpuset.cpus");$/;"	v	file:
+cpu_subsystem	container_cpu_detection/detection.c	/^static cgroup_subsystem_info cpu_subsystem;$/;"	v	file:
+cpuset_getrange	container_cpu_detection/detection.c	/^static int cpuset_getrange(const char *c, int *a, int *b)$/;"	f	file:
+cpuset_nexttok	container_cpu_detection/detection.c	/^static char *cpuset_nexttok(const char *c)$/;"	f	file:
+cpuset_subsystem	container_cpu_detection/detection.c	/^static cgroup_subsystem_info cpuset_subsystem;$/;"	v	file:
+cycle	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle {$/;"	f
+cycle	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle {$/;"	f
+cycle_cbridge	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_cbridge {$/;"	f
+cycle_cbridge	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_cbridge {$/;"	f
+cycle_members	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_members {$/;"	f
+cycle_members	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_members {$/;"	f
+cycle_pbridge	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_pbridge {$/;"	f
+cycle_pbridge	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_pbridge {$/;"	f
+cycle_stresser	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function cycle_stresser {$/;"	f
+cycle_stresser	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function cycle_stresser {$/;"	f
+d_string	container_cpu_detection/detection.c	40;"	d	file:
+d_string_t	container_cpu_detection/detection.c	/^} d_string_t;$/;"	t	typeref:struct:__anon1	file:
+data	container_cpu_detection/detection.c	/^    char *data;$/;"	m	struct:__anon1	file:
+debug	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+debug	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+debug	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+debug	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+debug	mydocker/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^sub debug() {$/;"	s
+dep_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function dep_pass {$/;"	f
+detection_free	container_cpu_detection/detection.c	/^static void detection_free(cgroup_subsystem_info *subsystem)$/;"	f	file:
+detection_init	container_cpu_detection/detection.c	/^static int detection_init()$/;"	f	file:
+detection_initialized	container_cpu_detection/detection.c	/^static int           detection_initialized;$/;"	v	file:
+detection_open	container_cpu_detection/detection.c	/^static int           detection_open;$/;"	v	file:
+die	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/install-protobuf.sh	/^die() {$/;"	f
+die	docker-network/CNI-Genie/vendor/github.com/golang/protobuf/ptypes/regen.sh	/^function die() {$/;"	f
+die	docker-network/multus-cni/vendor/github.com/gogo/protobuf/install-protobuf.sh	/^die() {$/;"	f
+doMain	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def doMain(args):$/;"	f
+doMain	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def doMain(args):$/;"	f
+doRpcClientToGoSvc	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToGoSvc(port):$/;"	f
+doRpcClientToGoSvc	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToGoSvc(port):$/;"	f
+doRpcClientToPythonSvc	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToPythonSvc(port):$/;"	f
+doRpcClientToPythonSvc	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcClientToPythonSvc(port):$/;"	f
+doRpcServer	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcServer(port, stopTimeSec):$/;"	f
+doRpcServer	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def doRpcServer(port, stopTimeSec):$/;"	f
+docker_t	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function docker_t() {$/;"	f
+docker_t	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function docker_t() {$/;"	f
+done	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^done:$/;"	l
+e2e_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function e2e_pass {$/;"	f
+echo_b	docker_practice/_local/push_images.sh	/^echo_b () {$/;"	f
+echo_g	docker_practice/_local/push_images.sh	/^echo_g () {$/;"	f
+echo_r	docker_practice/_local/push_images.sh	/^echo_r () {$/;"	f
+echo_y	docker_practice/_local/push_images.sh	/^echo_y () {$/;"	f
+err	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+err	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+err	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+err	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+err	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t err;$/;"	m	struct:ret	file:
+error_message	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^const char *error_message(void *opdata, ConnContext *context,$/;"	f
+error_message_free	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void error_message_free(void *opdata, const char *msg) {}$/;"	f
+etcd_build	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/build	/^etcd_build() {$/;"	f
+etcd_setup_gopath	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/build	/^etcd_setup_gopath() {$/;"	f
+exec_plugins	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/scripts/exec-plugins.sh	/^function exec_plugins() {$/;"	f
+exec_plugins	docker-network/multus-cni/vendor/github.com/containernetworking/cni/scripts/exec-plugins.sh	/^function exec_plugins() {$/;"	f
+exec_plugins	docker-network/sriov-cni/scripts/exec-plugins.sh	/^function exec_plugins() {$/;"	f
+exec_t	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function exec_t() {$/;"	f
+exec_t	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function exec_t() {$/;"	f
+exit	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_386.s	/^exit:$/;"	l
+exit	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/sys_amd64.s	/^exit:$/;"	l
 express	dockerfile/nodejs/centos6/index.js	/^var express = require('express');$/;"	v
+finish	mydocker/vendor/github.com/dsnet/compress/bench.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+finish	mydocker/vendor/github.com/dsnet/compress/build.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+finish	mydocker/vendor/github.com/dsnet/compress/test.bash	/^function finish { rm -rf $TMPDIR; }$/;"	f
+flush_buffer	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^flush_buffer:$/;"	l
+fmt	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^fmt = $(addprefix fmt-,$(1))$/;"	m
+fmt	mydocker/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^sub fmt {$/;"	s
+fmt_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function fmt_pass {$/;"	f
+fp_activate	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_activate {$/;"	f
+fp_activate	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_activate {$/;"	f
+fp_all_rand_fire	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_all_rand_fire {$/;"	f
+fp_all_rand_fire	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_all_rand_fire {$/;"	f
+fp_rand_all	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_rand_all {$/;"	f
+fp_rand_all	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_rand_all {$/;"	f
+fp_rand_single	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function fp_rand_single {$/;"	f
+fp_rand_single	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function fp_rand_single {$/;"	f
+g_session_established	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^static int g_session_established = 0;$/;"	v	file:
+gccgoRealSyscall	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+gccgoRealSyscall	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+gccgoRealSyscall	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+gccgoRealSyscall	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6)$/;"	f
+gccgoRealSyscall	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	/^gccgoRealSyscall(uintptr_t trap, uintptr_t a1, uintptr_t a2, uintptr_t a3, uintptr_t a4, uintptr_t a5, uintptr_t a6, uintptr_t a7, uintptr_t a8, uintptr_t a9)$/;"	f
+getServiceMain	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/go12.c	/^·getServiceMain(uintptr *r)$/;"	f
+get_file_t	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function get_file_t() {$/;"	f
+get_file_t	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function get_file_t() {$/;"	f
+get_test_data_list	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^def get_test_data_list():$/;"	f
+get_test_data_list	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^def get_test_data_list():$/;"	f
+glibc_sysconf	container_cpu_detection/detection.c	/^typedef long (*glibc_sysconf)(int name);$/;"	t	file:
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/any";' 'go_package = "types";' .\/google\/protobuf\/any.proto$/;"	m
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/duration";' 'go_package = "types";' .\/google\/protobuf\/duration.proto$/;"	m
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/empty";' 'go_package = "types";' .\/google\/protobuf\/empty.proto$/;"	m
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/struct;structpb";' 'go_package = "types";' .\/google\/protobuf\/struct.proto$/;"	m
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/timestamp";' 'go_package = "types";' .\/google\/protobuf\/timestamp.proto$/;"	m
+go_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'go_package = "github.com\/golang\/protobuf\/ptypes\/wrappers";' 'go_package = "types";' .\/google\/protobuf\/wrappers.proto$/;"	m
+gone_insecure	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void gone_insecure(void *opdata, ConnContext *context) {}$/;"	f
+gone_secure	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void gone_secure(void *opdata, ConnContext *context) {}$/;"	f
+goroot	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+goroot	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+goroot	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+goroot	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+goroot	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^goroot = $(addprefix ..\/..\/..\/,$(1))$/;"	m
+grpcproxy_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function grpcproxy_pass {$/;"	f
+handle_msg_event	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void handle_msg_event(void *opdata, OtrlMessageEvent msg_event,$/;"	f
+handle_smp_event	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void handle_smp_event(void *opdata, OtrlSMPEvent smp_event,$/;"	f
+has_digest	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function has_digest() {$/;"	f
+has_digest	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function has_digest() {$/;"	f
+help	docker-performance/utils/histogram.py	/^                        help="Comma seperated list of bucket edges for the histogram")$/;"	v
+help	docker-performance/utils/histogram.py	/^                        help="Disable the calculation of Mean, Variance and SD (improves performance)")$/;"	v
+help	docker-performance/utils/histogram.py	/^                        help="Number of buckets to use for the histogram")$/;"	v
+help	docker-performance/utils/histogram.py	/^                        help="maximum value for graph")$/;"	v
+help	docker-performance/utils/histogram.py	/^                        help="minimum value for graph")$/;"	v
+histogram	docker-performance/utils/histogram.py	/^def histogram(stream, options):$/;"	f
 index	dockerfile/python/centos6/index.py	/^class index:$/;"	c
 index	dockerfile/python/centos7/index.py	/^class index:$/;"	c
+inject_message	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void inject_message(void *opdata, const char *accountname, const char *protocol,$/;"	f
+install_ca	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_ca() {$/;"	f
+install_ca	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_ca() {$/;"	f
+install_test_certs	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_test_certs() {$/;"	f
+install_test_certs	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^install_test_certs() {$/;"	f
+integration_e2e_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function integration_e2e_pass {$/;"	f
+integration_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function integration_pass {$/;"	f
+is	docker-network/CNI-Genie/vendor/github.com/spf13/pflag/verify/all.sh	/^function is-excluded {$/;"	f
+is	docker-network/multus-cni/vendor/github.com/spf13/pflag/verify/all.sh	/^function is-excluded {$/;"	f
+is_detection_target	container_cpu_detection/detection.c	/^static int is_detection_target()$/;"	f	file:
+is_logged_in	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^int is_logged_in(void *opdata, const char *accountname, const char *protocol,$/;"	f
+json	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import json$/;"	i
+kPrivateKeyData	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^static const char kPrivateKeyData[] =$/;"	v	file:
+kill_all	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function kill_all {$/;"	f
+kill_all	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function kill_all {$/;"	f
+kill_maj	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function kill_maj {$/;"	f
+kill_maj	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function kill_maj {$/;"	f
+len	container_cpu_detection/detection.c	/^    int   len;$/;"	m	struct:__anon1	file:
+load_stream	docker-performance/utils/histogram.py	/^def load_stream(input_stream):$/;"	f
+login	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login() {$/;"	f
+login	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login() {$/;"	f
+login_oauth	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login_oauth() {$/;"	f
+login_oauth	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function login_oauth() {$/;"	f
+loop	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^loop:$/;"	l
+mKeccakRound	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define mKeccakRound(iState, oState, rc, B_RBI_RCE, G_RT1_RCA, G_RT1_RCE, G_RBA_RCU, K_RT1_RCA, K_RT1_RCE, K_RBA_RCU, M_RT1_RCA, M_RT1_RCE, M_RBE_RCU, S_RDU_RCU, S_RDA_RCA, S_RDE_RCE) \\$/;"	d
+main	container_cpu_detection/sysconf_test.c	/^int main()$/;"	f
+main	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/scripts/build-binary	/^function main {$/;"	f
+main	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^int main() {$/;"	f
+main	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^def main(sysargs=sys.argv[:]):$/;"	f
+main	mydocker/vendor/github.com/urfave/cli/runtests	/^def main(sysargs=sys.argv[:]):$/;"	f
 mark_exit_code	dockerfile/freeipa/centos7/ipa-server-configure-first	/^mark_exit_code () {$/;"	f
+math	docker-performance/utils/histogram.py	/^import math$/;"	i
+max_message_size	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^int max_message_size(void *opdata, ConnContext *context) { return 99999; }$/;"	f
+mean	docker-performance/utils/histogram.py	/^    def mean(self):$/;"	m	class:MVSD
+median	docker-performance/utils/histogram.py	/^def median(values):$/;"	f
+mount_point	container_cpu_detection/detection.c	/^    d_string_t mount_point;$/;"	m	struct:__anon2	file:
+msgpack	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+msgpack	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+msgpackrpc	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+msgpackrpc	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+multiply	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_amd64.s	/^multiply:$/;"	l
+myStopRpcServer	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^        def myStopRpcServer():$/;"	m	class:doRpcServer.EchoHandler
+myStopRpcServer	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^        def myStopRpcServer():$/;"	m	class:doRpcServer.EchoHandler
+new_fingerprint	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void new_fingerprint(void *opdata, OtrlUserState us, const char *accountname,$/;"	f
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "github.com\/golang\/protobuf\/protoc-gen-go\/descriptor;descriptor";' 'option go_package = "descriptor";' .\/google\/protobuf\/descriptor.proto$/;"	m
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "github.com\/golang\/protobuf\/protoc-gen-go\/plugin;plugin_go";' 'option go_package = "plugin_go";' .\/google\/protobuf\/compiler\/plugin.proto$/;"	m
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/api;api";' 'option go_package = "types";' .\/google\/protobuf\/api.proto$/;"	m
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/field_mask;field_mask";' 'option go_package = "types";' .\/google\/protobuf\/field_mask.proto$/;"	m
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/ptype;ptype";' 'option go_package = "types";' .\/google\/protobuf\/type.proto$/;"	m
+o_package	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/protobuf/Makefile	/^	gogoreplace 'option go_package = "google.golang.org\/genproto\/protobuf\/source_context;source_context";' 'option go_package = "types";' .\/google\/protobuf\/source_context.proto$/;"	m
+options	docker-network/CNI-Genie/plugins_install.sh	/^options () {$/;"	f
+orig_sysconf	container_cpu_detection/detection.c	/^static long orig_sysconf(int name)$/;"	f	file:
+os	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+os	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+os	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import os$/;"	i
+os	mydocker/vendor/github.com/urfave/cli/runtests	/^import os$/;"	i
+package	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/scripts/build-binary	/^function package {$/;"	f
+parse_version	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function parse_version() {$/;"	f
+parse_version	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function parse_version() {$/;"	f
+parseparam	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparam	mydocker/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparam($) {$/;"	s
+parseparam	mydocker/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparam($) {$/;"	s
+parseparamlist	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	mydocker/vendor/golang.org/x/sys/unix/mksyscall.pl	/^sub parseparamlist($) {$/;"	s
+parseparamlist	mydocker/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl	/^sub parseparamlist($) {$/;"	s
+parser	docker-performance/utils/histogram.py	/^    parser = OptionParser()$/;"	v
+path	container_cpu_detection/detection.c	/^    d_string_t path;$/;"	m	struct:__anon2	file:
+plan9	docker-network/multus-cni/vendor/golang.org/x/sys/plan9/mksyscall.pl	/^package plan9$/;"	p
+policy	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^OtrlPolicy policy(void *opdata, ConnContext *context) {$/;"	f
+poly1305_auth_armv6_noblocks	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_auth_armv6_noblocks:$/;"	l
+poly1305_blocks_armv6_done	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_blocks_armv6_done:$/;"	l
+poly1305_blocks_armv6_mainloop	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_blocks_armv6_mainloop:$/;"	l
+poly1305_blocks_armv6_mainloop_aligned	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_blocks_armv6_mainloop_aligned:$/;"	l
+poly1305_blocks_armv6_mainloop_loaded	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_blocks_armv6_mainloop_loaded:$/;"	l
+poly1305_finish_ext_armv6_aligned	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_aligned:$/;"	l
+poly1305_finish_ext_armv6_noremaining	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_noremaining:$/;"	l
+poly1305_finish_ext_armv6_skip1	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip1:$/;"	l
+poly1305_finish_ext_armv6_skip2	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip2:$/;"	l
+poly1305_finish_ext_armv6_skip4	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip4:$/;"	l
+poly1305_finish_ext_armv6_skip4_aligned	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip4_aligned:$/;"	l
+poly1305_finish_ext_armv6_skip8	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip8:$/;"	l
+poly1305_finish_ext_armv6_skip8_aligned	docker-network/multus-cni/vendor/golang.org/x/crypto/poly1305/poly1305_arm.s	/^poly1305_finish_ext_armv6_skip8_aligned:$/;"	l
+print_function	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^from __future__ import print_function, unicode_literals$/;"	i
+print_function	mydocker/vendor/github.com/urfave/cli/runtests	/^from __future__ import print_function$/;"	i
+r	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+r	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+r	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+r	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+r	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	/^	uintptr_t r;$/;"	m	struct:ret	file:
+rBa	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rBa R10$/;"	d
+rBe	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rBe R11$/;"	d
+rBi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rBi R12$/;"	d
+rBo	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rBo R13$/;"	d
+rBu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rBu R14$/;"	d
+rCa	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rCa SI$/;"	d
+rCe	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rCe BP$/;"	d
+rCi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rCi rBi$/;"	d
+rCo	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rCo rBo$/;"	d
+rCu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rCu R15$/;"	d
+rDa	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rDa BX$/;"	d
+rDe	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rDe CX$/;"	d
+rDi	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rDi DX$/;"	d
+rDo	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rDo R8$/;"	d
+rDu	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rDu R9$/;"	d
+rT1	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rT1  AX$/;"	d
+rand_fp	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function rand_fp {$/;"	f
+rand_fp	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function rand_fp {$/;"	f
+read_cpu_subsystem_info	container_cpu_detection/detection.c	/^static int read_cpu_subsystem_info(cgroup_subsystem_info *subsystem,$/;"	f	file:
+read_subsystem_file	container_cpu_detection/detection.c	/^static int read_subsystem_file(const char *filename, char *value,$/;"	f	file:
+release_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function release_pass {$/;"	f
+resent_msg_prefix_free	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void resent_msg_prefix_free(void *opdata, const char *prefix) {}$/;"	f
+ret	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+ret	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+ret	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+ret	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+ret	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	/^struct ret {$/;"	s	file:
+root	container_cpu_detection/detection.c	/^    d_string_t root;$/;"	m	struct:__anon2	file:
+rpStack	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rpStack SP$/;"	d
+rpState	docker-network/multus-cni/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s	/^#define rpState DI$/;"	d
+run	docker-network/CNI-Genie/plugins_install.sh	/^run () {$/;"	f
+run_cpu_test	docker-performance/bench/sysbench/run-sysbench.sh	/^function run_cpu_test {$/;"	f
+run_oltp_test	docker-performance/bench/sysbench/run-sysbench.sh	/^function run_oltp_test {$/;"	f
+sd	docker-performance/utils/histogram.py	/^    def sd(self):$/;"	m	class:MVSD
+set_etc_hosts	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^set_etc_hosts() {$/;"	f
+set_etc_hosts	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/install_certs.sh	/^set_etc_hosts() {$/;"	f
+set_subsystem_path	container_cpu_detection/detection.c	/^static int set_subsystem_path(cgroup_subsystem_info *subsystem_info,$/;"	f	file:
+setup_env	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/scripts/build-binary	/^function setup_env {$/;"	f
+setup_oltp_database	docker-performance/bench/sysbench/run-sysbench.sh	/^function setup_oltp_database {$/;"	f
+setup_oltp_test	docker-performance/bench/sysbench/run-sysbench.sh	/^function setup_oltp_test {$/;"	f
+std	container_cpu_detection/Makefile	/^	gcc -std=c99 -Wall -shared -g -fPIC -ldl detection.c -o $(versioned_so)$/;"	m
+still_secure	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void still_secure(void *opdata, ConnContext *context, int is_reply) {}$/;"	f
+subprocess	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import subprocess$/;"	i
+sys	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+sys	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+sys	docker-performance/utils/histogram.py	/^import sys$/;"	i
+sys	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import sys$/;"	i
+sys	mydocker/vendor/github.com/urfave/cli/runtests	/^import sys$/;"	i
+sysconf	container_cpu_detection/detection.c	/^long sysconf(int name)$/;"	f
+t	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^        t = threading.Timer(stopTimeSec, myStopRpcServer)$/;"	v	class:doRpcServer.EchoHandler
+t	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^        t = threading.Timer(stopTimeSec, myStopRpcServer)$/;"	v	class:doRpcServer.EchoHandler
+tempImage	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function tempImage() {$/;"	f
+tempImage	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function tempImage() {$/;"	f
+tempfile	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import tempfile$/;"	i
+tempfile	mydocker/vendor/github.com/urfave/cli/runtests	/^import tempfile$/;"	i
+test_median	docker-performance/utils/histogram.py	/^def test_median():$/;"	f
+test_mvsd	docker-performance/utils/histogram.py	/^def test_mvsd():$/;"	f
+testdirs	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testdirs	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testdirs	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testdirs	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testdirs	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^testdirs = $(call uniq,$(foreach d,$(1),$(dir $(wildcard $(d)\/*_test.go))))$/;"	m
+testrun	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/test.sh	/^function testrun {$/;"	f
+testrun	docker-network/multus-cni/vendor/github.com/containernetworking/cni/test.sh	/^function testrun {$/;"	f
+testrun	docker-network/sriov-cni/test	/^function testrun {$/;"	f
+textwrap	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^import textwrap$/;"	i
+threading	docker-network/CNI-Genie/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+threading	docker-network/multus-cni/vendor/github.com/ugorji/go/codec/test.py	/^import cbor, msgpack, msgpackrpc, sys, os, threading$/;"	i
+timestamp	docker-performance/bench/sysbench/run-sysbench.sh	/^function timestamp {$/;"	f
+toggle_failpoints	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/build	/^toggle_failpoints() {$/;"	f
+uint32	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/go12.c	/^typedef	unsigned int	uint32;$/;"	t	file:
+uint64	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/go12.c	/^typedef	unsigned long long int	uint64;$/;"	t	file:
+uintptr	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/go12.c	/^typedef	uint32		uintptr;$/;"	t	file:
+uintptr	docker-network/multus-cni/vendor/golang.org/x/sys/windows/svc/go12.c	/^typedef	uint64		uintptr;$/;"	t	file:
+uiops	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^OtrlMessageAppOps uiops = {$/;"	v
+unicode_literals	mydocker/vendor/github.com/urfave/cli/generate-flag-types	/^from __future__ import print_function, unicode_literals$/;"	i
+uniq	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+uniq	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+uniq	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+uniq	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+uniq	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))$/;"	m
+unit_pass	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/test	/^function unit_pass {$/;"	f
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	docker-network/multus-cni/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksyscall.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl	/^package unix;$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_linux.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl	/^package unix$/;"	p
+unix	mydocker/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl	/^package unix$/;"	p
+unroot	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+unroot	docker-network/CNI-Genie/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+unroot	docker-network/multus-cni/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+unroot	docker-network/sriov-cni/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+unroot	mydocker/vendor/github.com/vishvananda/netlink/Makefile	/^unroot = $(subst ..\/..\/..\/,,$(1))$/;"	m
+update_context_list	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void update_context_list(void *opdata) {}$/;"	f
 update_server_ip_address	dockerfile/freeipa/centos7/ipa-server-configure-first	/^function update_server_ip_address () {$/;"	f
 upgrade_server	dockerfile/freeipa/centos7/ipa-server-configure-first	/^function upgrade_server () {$/;"	f
 urls	dockerfile/python/centos6/index.py	/^urls = ($/;"	v
 urls	dockerfile/python/centos7/index.py	/^urls = ($/;"	v
+usage	docker_practice/_local/push_images.sh	/^usage() {$/;"	f
 usage	dockerfile/freeipa/centos7/ipa-server-configure-first	/^function usage () {$/;"	f
+use	docker-network/CNI-Genie/vendor/github.com/containernetworking/cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+use	docker-network/CNI-Genie/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+use	docker-network/multus-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+use	docker-network/sriov-cni/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+use	mydocker/vendor/golang.org/x/sys/unix/gccgo_c.c	/^use(void *p __attribute__ ((unused)))$/;"	f
+var	docker-performance/utils/histogram.py	/^    def var(self):$/;"	m	class:MVSD
+version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ proto3.proto$/;"	m
+version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ proto3.proto$/;"	m
+version	docker-network/CNI-Genie/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ proto3.proto$/;"	m
+version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofast_out=.\/fast\/ proto3.proto$/;"	m
+version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogofaster_out=.\/faster\/ proto3.proto$/;"	m
+version	docker-network/multus-cni/vendor/github.com/gogo/protobuf/vanity/test/Makefile	/^	protoc-min-version -version="3.0.0" --proto_path=..\/..\/:..\/..\/..\/..\/..\/:..\/..\/protobuf\/:. --gogoslick_out=.\/slick\/ proto3.proto$/;"	m
+version_check	docker-network/CNI-Genie/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function version_check() {$/;"	f
+version_check	docker-network/multus-cni/vendor/github.com/docker/distribution/contrib/docker-integration/helpers.bash	/^function version_check() {$/;"	f
+versioned_so	container_cpu_detection/Makefile	/^versioned_so = detection.so$/;"	m
+wait_time	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/cmd/tools/local-tester/faults.sh	/^function wait_time {$/;"	f
+wait_time	docker-network/CNI-Genie/vendor/github.com/coreos/etcd/tools/local-tester/faults.sh	/^function wait_time {$/;"	f
 web	dockerfile/python/centos6/index.py	/^import web$/;"	i
 web	dockerfile/python/centos7/index.py	/^import web$/;"	i
+write_fingerprints	docker-network/multus-cni/vendor/golang.org/x/crypto/otr/libotr_test_helper.c	/^void write_fingerprints(void *opdata) {}$/;"	f
